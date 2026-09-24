@@ -1,26 +1,31 @@
 class Solution:
-    def findMedianSortedArrays(self, A, B):
-        l = len(A) + len(B)
-        if l % 2 == 1:
-            return self.kth(A, B, l // 2)
-        else:
-            return (self.kth(A, B, l // 2) + self.kth(A, B, l // 2 - 1)) / 2.   
-        
-    def kth(self, a, b, k):
-        if not a:
-            return b[k]
-        if not b:
-            return a[k]
-        ia, ib = len(a) // 2 , len(b) // 2
-        ma, mb = a[ia], b[ib]
-        if ia + ib < k:
-            if ma > mb:
-                return self.kth(a, b[ib + 1:], k - ib - 1)
-            else:
-                return self.kth(a[ia + 1:], b, k - ia - 1)
-        else:
+    def findMedianSortedArrays(self, nums1: list[int], nums2: list[int]) -> float:
+        if len(nums1) > len(nums2):
+            nums1, nums2 = nums2, nums1
             
-            if ma > mb:
-                return self.kth(a[:ia], b, k)
+        m, n = len(nums1), len(nums2)
+        low, high = 0, m
+        
+        while low <= high:
+            partition1 = (low + high) // 2
+            partition2 = (m + n + 1) // 2 - partition1
+
+            maxLeft1 = float('-inf') if partition1 == 0 else nums1[partition1 - 1]
+            minRight1 = float('inf') if partition1 == m else nums1[partition1]
+            
+            maxLeft2 = float('-inf') if partition2 == 0 else nums2[partition2 - 1]
+            minRight2 = float('inf') if partition2 == n else nums2[partition2]
+            
+            if maxLeft1 <= minRight2 and maxLeft2 <= minRight1:
+                if (m + n) % 2 == 0:
+                    return (max(maxLeft1, maxLeft2) + min(minRight1, minRight2)) / 2.0
+                else:
+                    return float(max(maxLeft1, maxLeft2))
+            
+            elif maxLeft1 > minRight2:
+                high = partition1 - 1
+                
             else:
-                return self.kth(a, b[:ib], k)
+                low = partition1 + 1
+                
+        raise ValueError("Input arrays are not sorted or are invalid.")
