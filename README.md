@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0011-container-with-most-water) |
+| [1929-concatenation-of-array](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/1929-concatenation-of-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -74,4 +75,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0011-container-with-most-water) |
+## Simulation
+|  |
+| ------- |
+| [1929-concatenation-of-array](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/1929-concatenation-of-array) |
 <!---LeetCode Topics End-->
