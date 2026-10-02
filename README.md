@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0645-set-mismatch](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0645-set-mismatch) |
 ## String
 |  |
 | ------- |
@@ -38,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0011-container-with-most-water) |
 | [0485-max-consecutive-ones](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0485-max-consecutive-ones) |
+| [0645-set-mismatch](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0645-set-mismatch) |
 | [1470-shuffle-the-array](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/1470-shuffle-the-array) |
 | [1929-concatenation-of-array](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/1929-concatenation-of-array) |
 ## Binary Search
@@ -83,4 +85,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1929-concatenation-of-array](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/1929-concatenation-of-array) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0645-set-mismatch](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0645-set-mismatch) |
+## Sorting
+|  |
+| ------- |
+| [0645-set-mismatch](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0645-set-mismatch) |
 <!---LeetCode Topics End-->
