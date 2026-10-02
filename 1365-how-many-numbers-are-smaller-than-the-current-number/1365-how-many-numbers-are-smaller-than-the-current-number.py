@@ -1,8 +1,16 @@
 class Solution:
     def smallerNumbersThanCurrent(self, nums: list[int]) -> list[int]:
-        sorted_nums = sorted(nums)
-        smaller_count = {}
-        for i, num in enumerate(sorted_nums):
-            if num not in smaller_count:
-                smaller_count[num] = i
-        return [smaller_count[num] for num in nums]
+        count = [0] * 101
+        for num in nums:
+            count[num] += 1
+            
+        for i in range(1, 101):
+            count[i] += count[i - 1]
+            
+        final_answer = []
+        for num in nums:
+            if num == 0:
+                final_answer.append(0)
+            else:
+                final_answer.append(count[num - 1])
+        return final_answer
