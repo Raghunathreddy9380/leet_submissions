@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0009-palindrome-number) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0150-evaluate-reverse-polish-notation) |
 ## Recursion
 |  |
 | ------- |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0011-container-with-most-water) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0485-max-consecutive-ones) |
 | [0645-set-mismatch](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0645-set-mismatch) |
@@ -102,4 +104,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
+## Stack
+|  |
+| ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0150-evaluate-reverse-polish-notation) |
 <!---LeetCode Topics End-->
