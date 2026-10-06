@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0005-longest-palindromic-substring) |
 | [0006-zigzag-conversion](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0006-zigzag-conversion) |
 | [0008-string-to-integer-atoi](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0008-string-to-integer-atoi) |
+| [0020-valid-parentheses](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0020-valid-parentheses) |
 ## Sliding Window
 |  |
 | ------- |
@@ -109,5 +110,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0020-valid-parentheses) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0150-evaluate-reverse-polish-notation) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/Raghunathreddy9380/leet_submissions/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
